@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Rye&family=Open+Sans:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* ----------------------------------------Background colors */
+
+.bg-nav-color {
+    background-color: #1f1e1ef2;    
+}
+
+.bg-navbar-brand {
+    background-color: #1f1e1ef2;
+}
+
+.bg-color-heading {
+    background-color:#1f1e1ef2;
+}
+
+.bg-section-about {
+    background-color: #7e7b7bc7;
+}
+
+.bg-footer {
+    background-color:#1f1e1ef2;
+}
+
+.bg-color-card-group {
+    background-color: #1f1e1ef2;
+}
+
+.card-footer {
+   background-color: #e2e3e4;
+}
+
+.card-body{
+  background-color:  #e2e3e4;  
+}
+
+.bg-color-contact {
+    background-color:  #e2e3e4;
+}
+
+
+ /* ----------------------------------------Special paddings/margins/text */
+
+h1,h2,h3,h4,h5 {
+margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Metal Mania",sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    padding-bottom: 5px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+section {
+    margin: 0 auto;
+    min-height: 360px;    
+}
+
+
+/* ----------------------------------------Navbar */
+
+.h-nav {
+    min-height: 100px;
+}
+
+.navbar-brand {
+    padding-left: 10px;
+    padding-top: 15px;
+    font-family: "Rye",sans-serif;
+    font-size: 40px;
+    color: rgb(161, 5, 5);
+    height: 80px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 16px;
+    padding: 0;
+}
+
+.menuitem {
+    text-align: center;
+    padding: 0;
+    height: 80px;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fafafa;
+    height: 80px;
+}
+
+.menuitem a i {
+    padding-top: 15px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Rye",sans-serif;
+    letter-spacing: 2px;
+}
+
+
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgb(161, 5, 5);
+    height: 100px;
+}
+
+.title:hover {
+   background: rgb(161, 5, 5); 
+}
+
+.name:hover {
+   background: rgb(161, 5, 5);
+   padding: 0; 
+}
+
+.cv-pdf i:hover {
+    color: rgb(161, 5, 5);
+}
+
+.social-links li a i:hover {
+    background: rgb(161, 5, 5);
+}
+
+.card:hover {
+    transform: translateY(-25px);
+}
+
+button[type="submit"]:hover {
+    background: rgb(161, 5, 5);
+}
+
+
+
+/* ----------------------------------------Names & logo */
+
+.heading {
+    text-align: center;
+    min-height: 360px;
+}
+.name {
+    color: #fafafa;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 200px;
+} 
+    
+.title {
+    color: #fafafa;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    
+}
+header {
+    margin: 0;
+}
+
+.logo {
+    background: url("../images/ember.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;    
+}
+
+/* ----------------------------------------Home, three Reasons section */
+
+.section-heading {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.three-reasons-section {
+    margin-left: -5px;
+    padding-right: 15px;
+}
+
+.three-reasons-icon {
+    font-size: 30px;
+    color: rgb(161, 5, 5);;
+}
+
+.three-reasons-heading {
+    margin-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.three-reasons-p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+
+/* ----------------------------------------About, Personal Info */
+
+.section-about{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.section-about-personal-info {
+  font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 50px;  
+    font-size: 25px;
+}
+
+
+.personal-info-item {
+    margin-bottom: 20px;
+    color: #fafafa;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 10px;
+    padding-top: 5px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 500;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+    margin-left: 8px;
+}
+
+
+
+/* ----------------------------------------About, Work and education section */
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    display: block;
+    font-family: "open sans", sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 30px;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    padding-bottom: 10px;
+}
+
+/* ----------------------------------------Projects, cards section */
+
+
+.card {
+    width: 90%;
+}
+
+.card-group-section {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+/* ----------------------------------------Contact, Contact Form */
+
+.contact-heading {
+    font-family: "open sans", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #363535;
+}
+.contact-link {
+    color: rgb(161, 5, 5)
+}
+
+/* ----------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+
+/* ----------------------------------------Footer */
+
+footer {
+    color: #fafafa;
+    min-height: 80px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 20px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    
+}
+
+.social-links li:not(:first-child) {
+    padding-left: 2px;
+}
+
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 10px 0px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+#footer-details {
+    padding: 15px;
+}
+
+.footer-p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+}
+
